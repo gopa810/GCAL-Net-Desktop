@@ -1,0 +1,4 @@
+Date;Time;DST;EventText;Location
+# (foreach dnr : events.items
+[dnr.Time.shortDate];[dnr.Time.longTime];[dnr.dstSignature];[dnr.typeString];[location.fullName]
+# )

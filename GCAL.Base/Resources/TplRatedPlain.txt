@@ -1,0 +1,21 @@
+RATED EVENTS
+From [events.startDate.shortDate] to [events.endDate.shortDate]
+[location.fullName]
+
+# (set prevDay -1)
+# (foreach ri : events.intervals
+#   (if (!= prevDay ri.startTime.day) then
+
+=== [ri.startTime.shortDate:-12s] - [ri.startTime.dayOfWeekName] ========
+
+#   )
+#
+   [ri.startTime.shortTime] - [ri.endTime.shortTime]  [ri.title:40m]  +[ri.ratingPos]  [ri.ratingNeg]
+#   (set notes ri.notes)
+#   (if (!= notes.count 0) then
+#      (foreach s : notes
+                 [s]
+#      )
+#    )
+#  (set prevDay ri.startTime.day)
+# )

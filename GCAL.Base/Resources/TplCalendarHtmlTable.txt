@@ -1,0 +1,260 @@
+# (set g_firstday_in_week (x app getDispValue GCDS.GENERAL_FIRST_DOW))
+# (set k 0)
+# (set y 0)
+# (set lwd 0)
+# (set nPrevMasa -1)
+# (set prevMas -1)
+# (set brw 0)
+
+<html>
+<head>
+<title>Calendar [calendar.startDate]</title>
+
+<style>
+<!--
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+{
+	mso-style-parent:\"\";
+	margin:0in;margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:Arial;
+}
+
+p.month
+{
+	mso-style-name:month;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:17.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:Arial;
+}
+
+.text
+{
+	mso-style-name:text;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:6.0pt;
+	mso-bidi-font-size:6.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Arial";
+	mso-bidi-font-family:"Arial";
+}
+
+.tnote
+{
+	mso-style-name:text;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:7.0pt;
+	mso-bidi-font-size:7.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:Arial;
+	mso-bidi-font-family:Arial;
+}
+
+.tithiname
+{
+	mso-style-name:text;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Arial";
+	mso-bidi-font-family:"Arial";
+}
+
+.dayt
+{
+	mso-style-name:dayt;
+	font-size:12.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Arial;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;
+}
+
+td.dayCell
+{
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	padding:3.0pt 3.0pt 3.0pt 3.0pt;
+}
+
+span.SpellE
+{
+	mso-style-name:"";
+	mso-spl-e:yes;
+}
+
+span.GramE
+{
+	mso-style-name:"";
+	mso-gram-e:yes;
+}
+
+-->
+</style>
+
+
+
+</head>
+
+<body>
+
+# (foreach k : calendar.itemIndexes
+#     (set pvd (x calendar getDay k))
+#     (set bSemicolon 0)
+#     (set bBr 0)
+#     (set lwd pvd.date.dayOfWeek)
+#     (if (!= nPrevMasa pvd.date.month) then
+#         (if (!= nPrevMasa -1) then
+#             (set y 0)
+#             (while (< y (x calendar daysToEndweek lwd))
+
+           <td class=dayCell>&nbsp;</td>
+
+#              )
+
+           </tr></table>
+		   <p>&nbsp;</p>
+
+#         )
+
+
+           <table width="100%" border=0 frame=bottom cellspacing=0 cellpadding=0>
+		       <tr>
+			       <td width="60%">
+				     <p class=month>[pvd.date.monthName] [pvd.date.year]</p>
+                   </td>
+				   <td>
+				     <p class=tnote align=right>[location.name]<br>Timezone: [location.timezoneName]</p>
+                   </td>
+			   </tr>
+		   </table>
+		   <hr>
+
+#          (set nPrevMasa pvd.date.month)
+
+          <table width="100%" bordercolor=black cellpadding=0 cellspacing=0>
+		      <tr>
+
+#          (set y 0)
+#          (while (< y 7)
+
+               <td width="14%" align=center style='font-size:10.0pt;border:none'>
+
+#              (print (x app getWeekdayName (x calendar dayIndex y)))
+
+               </td>
+
+#               (set y (+ y 1))
+#           )
+
+               <tr>
+
+#           (set y 0)
+#           (while (< y (x calendar daysFromBeginweek pvd.date.dayOfWeek))
+
+                 <td class=dayCell>&nbsp;</td>
+
+#                (set y (+ y 1))
+#           )
+#     else
+#        (if (== pvd.date.dayOfWeek g_firstday_in_week) then
+
+              <tr>
+
+#        )
+#     )
+
+    <td valign=top class=dayCell bgcolor="[pvd.htmlDayColor]">
+
+    <table width="100%" border=0>
+	   <tr>
+	      <td><p class=text><span class=dayt>[pvd.date.day]</span></td>
+		  <td><span class="tithiname">[pvd.tithiNameExt]</span></td>
+	   </tr>
+	</table>
+
+#     (set brw 0)
+
+   <span class="text">
+
+
+#      (if (> pvd.events.count 0) then
+#           (if (!= brw 0) then
+
+             <br>
+
+#           )
+#           (set brw 1)
+#           (set bSemicolon 0)
+#      )
+
+
+#      (foreach ed : pvd.events
+#          (if (x app canDisplay ed.dispItem) then
+#              (if bSemicolon then (print "; "))
+#              (set bSemicolon 1)
+#              (if ed.spec then
+
+         [ed.text]
+
+#              else
+         
+		 <i>[ed.text]</i>
+
+#              )
+#           )
+#       )
+
+
+#     (if (!= prevMas pvd.astro.nMasa) then
+#         (if (!= brw 0) then
+
+             <br>
+
+#         )
+#         (set brw 1)
+
+             <b>([pvd.masaName] Masa)</b>
+
+#         (set prevMas pvd.astro.nMasa)
+#     )
+
+</span>
+</td>
+
+# )
+
+# (set y 1)
+# (while (< y (x calendar daysToEndweek lwd))
+  
+  <td style='border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;padding:3.0pt 3.0pt 3.0pt 3.0pt'>&nbsp;</td>
+
+#     (set y (+ y 1))
+# )
+
+       </tr>
+	   </table>
+</body>
+</html>

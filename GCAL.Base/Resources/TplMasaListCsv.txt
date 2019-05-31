@@ -1,0 +1,4 @@
+Year;Masa;StartDate;EndDate;Location
+# (foreach item : mlist.items
+[item.year];[item.masaName];[item.startDate.shortDate];[item.endDate.shortDate];[location.fullName]
+# )

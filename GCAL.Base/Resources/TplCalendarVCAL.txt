@@ -1,0 +1,63 @@
+# (set k 0)
+# (set lastmasa -1)
+# (set st (x app new 'DateTime))
+#
+BEGIN:VCALENDAR
+VERSION:1.0
+X-WR-CALNAME:VAISNAVA
+PRODID:-//GBC Calendar Comitee//GCAL//EN
+X-WR-RELCALID:[st.millisecond:08d]-[st.dayOfWeek:04d]-[st.Month:04d]-[st.Hour:04d]-[st.Minute:04d][st.millisecond:08d]
+X-WR-TIMEZONE:[location.timeZoneName]
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+#
+# (foreach k : calendar.itemIndexes
+#     (set pvd (x calendar getDay k))
+#     (if (>= pvd.astro.sunLongitude 0.0) then
+#         (if pvd.ekadasiParana then
+#
+BEGIN:VEVENT
+#             (if pvd.hasParanaStart then
+DTSTART:[pvd.date.standardDateString]T[pvd.ekadasiParanaStart.standardTimeString]
+#              else
+DTSTART:[pvd.date.standardDateString]T000000
+#              )
+#             (if pvd.hasParanaEnd then
+DTEND:[pvd.date.standardDateString]T[pvd.ekadasiParanaEnd.standardTimeString]
+#              else
+DTEND:[pvd.date.standardDateString]T000000
+#              )
+SUMMARY:Break fast
+SEQUENCE:1
+END:VEVENT
+#
+#          )
+#          (if (or (> pvd.visibleEvents.count 0) (!= pvd.astro.nMasa lastmasa)) then
+BEGIN:VEVENT
+DTSTART:[pvd.date.standardDateString]T[pvd.astro.sunRiseTime.standardTimeString]
+DTEND:[pvd.date.standardDateString]T[pvd.astro.sunSetTime.standardTimeString]
+#  (set tmp location.name)
+#  (set tmp (x tmp replace "," "\\,"))
+LOCATION:[tmp]
+#              (if (!= pvd.astro.nMasa lastmasa) then
+SUMMARY:[pvd.astro.masaName] Masa, Gaurabda [pvd.astro.gaurabdaYear]
+#                  (if (and (eq pvd.astro.masa 12) (>= lastmasa 3) (<= lastmasa 6)) then
+ (Caturmasya is not observed during Purusottama Adhika Masa.)
+#                  )
+#                  (set lastmasa pvd.astro.nMasa)
+ [pvd.tithiNameExt]
+#              else
+SUMMARY:[pvd.tithiNameExt]
+#              )
+#              (foreach ed : pvd.visibleEvents
+#                   (set tmp ed.text)
+#                   (set tmp (x tmp replace "," "\\,"))
+ [tmp]
+#              )
+UID:[st.year:08d]-[st.month:04d]-[st.day:04d]-[st.hour:04d]-[st.minute:04d][st.second:04d][k:04d]
+SEQUENCE:1
+END:VEVENT
+#         )
+#     )
+# )
+END:VCALENDAR

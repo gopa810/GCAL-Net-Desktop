@@ -1,0 +1,14 @@
+Abranovce,SK,48N60,21E14,Europe/Bratislava
+Bratislava,SK,48N09,17E06,Europe/Bratislava
+Martin,SK,49N04,18E55,Europe/Bratislava
+Praha,CZ,50N05,14E25,Europe/Prague
+Postupice,CZ,49N42,14E46,Europe/Prague
+Brno,CZ,49N12,16E36,Europe/Prague
+Ostrava,CZ,49N50,18E17,Europe/Prague
+Fendels,AT,47N02,10E39,Europe/Vienna
+Klagenfurt am Worthersee,AT,46N37,14E18,Europe/Vienna
+Jandelsbrun (Simhacalam),DE,48N43,13E41,Europe/Berlin
+Dublin,IE,53N20,6W15,Europe/Dublin
+Radhadesh (Petite Somme),BE,50N20,5E24,Europe/Brussels
+Vrindavan,IN,27N35,77E42,Asia/Kolkata
+Mayapur,IN,23N26,88E23,Asia/Kolkata

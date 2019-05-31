@@ -1,0 +1,16 @@
+<xml>
+	<body type="Appearance Day">
+# (set group "default")
+# (foreach ab : appday.items
+#     (if (x app canDisplay ab.DsCondition)) then
+#         (if ab.isInfo then
+		<item group="[group]" name="[ab.Name]">[ab.Value]</item>
+#         )
+#         (if ab.isSeparator then
+#             (set group ab.Name)
+#         )
+#     )
+# )
+		<generator>[app.versionName]</generator>
+	</body>
+</xml>

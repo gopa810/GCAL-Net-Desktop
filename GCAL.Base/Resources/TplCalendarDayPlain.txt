@@ -1,0 +1,29 @@
+# (set lastmonth -1)
+# (set lastmasa -1)
+#     (if (or (== (x app getDispValue 20) 0) (> pvd.visibleEvents.count 0)) then
+#         (if (< pvd.astro.sunLongitude 0.0) then
+             No sunrise and no sunset for this day
+#         else
+#             (print " [pvd.date.shortDate:-11s] [pvd.date.dayOfWeekAbbr:3s] [pvd.tithiNameExt:32s] ")
+#             (if (x app getDispValue 39) then (print "[pvd.astro.paksaAbbr] "))
+#             (if (x app getDispValue 37) then (print "[pvd.astro.yogaName:10s] "))
+#             (if (x app getDispValue 36) then (print "[pvd.astro.naksatraName:14s] "))
+#             (if (x app getDispValue 38) then 
+#                 (if (!= pvd.fastType 0) then
+#                     (print " *   ")
+#                 else 
+#                     (print "     ")
+#                 )
+#             )
+#             (if (x app getDispValue 41) then (print "[pvd.astro.moonRasiName:10s] "))
+#             (println "")
+#             (foreach ed : pvd.visibleEvents
+#                 (if ed.isSpec then
+#                     (set tmp (x app centerText ed.text 80 '-))
+[tmp]
+#                  else
+                 [ed.text]
+#                 )
+#             )
+#         )
+#     )

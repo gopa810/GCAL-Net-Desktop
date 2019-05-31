@@ -1,0 +1,29 @@
+<RatedEvents>
+  <StartTime>[events.startDate.shortDate]</StartTime>
+  <EndTime>[events.endDate.shortDate]</EndTime>
+  <Location>[location.fullName]</Location>
+
+# (set prevDay -1)
+# (foreach ri in Intervals
+#     (if (!= prevDay ri.startTime.day) then
+#         (if (!= prevDay -1) then
+  </Day>
+#         )
+  <Day Date="[ri.startTime.shortDate]" DayOfWeek="[ri.startTime.dayOfWeekName]">
+#     )
+    <Interval Start="[ri.startTime.shortTime]" End="[ri.endTime.shortTime]"
+	          Title="[ri.title]" RatingPos="[ri.ratingPos]" RatingNeg="[ri.ratingNeg]">
+#      (set notes ri.notes)
+#      (if (!= notes.count 0) then
+#           (foreach s : notes
+        <Note>[s]</Note>
+#           )
+#       )
+    </Interval>
+#         (set prevDay ri.startTime.day)
+#     )
+# )
+#         (if (!= prevDay -1) then
+  </Day>
+#         )
+</RatedEvents>

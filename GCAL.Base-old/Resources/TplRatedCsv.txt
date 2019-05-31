@@ -1,0 +1,16 @@
+Title,RATED EVENTS
+Range,From [events.startDate.shortDate] to [events.endDate.shortDate]
+Location,[location.fullName]
+#
+# (set prevDay -1)
+# (foreach ri : events.intervals
+#
+Interval;[ri.startTime.standardDateString]T[ri.startTime.standardTimeString];[ri.endTime.shortTime];[ri.title:40m];+[ri.ratingPos];[ri.ratingNeg]
+#   (set notes ri.notes)
+#   (if (!= notes.count 0) then
+#      (foreach s : notes
+Note;[ri.startTime.standardDateString]T[ri.startTime.standardTimeString];[s]
+#      )
+#    )
+#  (set prevDay ri.startTime.day)
+# )

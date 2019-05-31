@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CB62E2A-5F73-4B8F-9509-CE0EC54DA1D9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GCAL.Base</RootNamespace>
+    <AssemblyName>GCAL.Base</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release SiddhantaPanchang|AnyCPU'">
+    <OutputPath>bin\Release SiddhantaPanchang\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\GCAL.Base.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PdfSharp, Version=1.32.3057.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.32.3057.0\lib\net20\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.32.3057.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.32.3057.0\lib\net20\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GCAscendant.cs" />
+    <Compile Include="GCCoreAstronomy.cs" />
+    <Compile Include="GCConfigRatedEvents.cs" />
+    <Compile Include="GCConfigRatedManager.cs" />
+    <Compile Include="GCDataFormat.cs" />
+    <Compile Include="GCFestivalBase.cs" />
+    <Compile Include="GCFestivalEkadasi.cs" />
+    <Compile Include="GCFestivalMasaDay.cs" />
+    <Compile Include="GCFestivalRelated.cs" />
+    <Compile Include="GCFestivalSpecial.cs" />
+    <Compile Include="GCFestivalSpecialExecutor.cs" />
+    <Compile Include="GCLog.cs" />
+    <Compile Include="GeoData\TContinent.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Scripting\GSCoreCollection.cs" />
+    <Compile Include="Scripting\GSCore.cs" />
+    <Compile Include="Scripting\GSDateTime.cs" />
+    <Compile Include="Scripting\GSExecutor.cs" />
+    <Compile Include="Scripting\GSNumber.cs" />
+    <Compile Include="Scripting\GSReturn.cs" />
+    <Compile Include="Scripting\GSScript.cs" />
+    <Compile Include="Scripting\GSList.cs" />
+    <Compile Include="Scripting\GDDocument.cs" />
+    <Compile Include="Scripting\GDDocumentBlock.cs" />
+    <Compile Include="Scripting\GDDocumentExportType.cs" />
+    <Compile Include="Scripting\GDExportContext.cs" />
+    <Compile Include="Scripting\GDLineBreak.cs" />
+    <Compile Include="Scripting\GDNode.cs" />
+    <Compile Include="Scripting\GDNodeCollection.cs" />
+    <Compile Include="Scripting\GDStyleDefinition.cs" />
+    <Compile Include="Scripting\GDStylesBook.cs" />
+    <Compile Include="Scripting\GDTable.cs" />
+    <Compile Include="Scripting\GDTableCell.cs" />
+    <Compile Include="Scripting\GDTableRow.cs" />
+    <Compile Include="Scripting\GDTextRun.cs" />
+    <Compile Include="Scripting\GDTextStyle.cs" />
+    <Compile Include="Scripting\GDTextStyleCollection.cs" />
+    <Compile Include="Scripting\GSBoolean.cs" />
+    <Compile Include="Scripting\GSString.cs" />
+    <Compile Include="Scripting\GSToken.cs" />
+    <Compile Include="GCFestivalTithiMasa.cs" />
+    <Compile Include="GCFestivalBook.cs" />
+    <Compile Include="GCLocation.cs" />
+    <Compile Include="GCAstroData.cs" />
+    <Compile Include="GCFestivalSankranti.cs" />
+    <Compile Include="GCEkadasi.cs" />
+    <Compile Include="GCMasa.cs" />
+    <Compile Include="GCPaksa.cs" />
+    <Compile Include="TCoreEvent.cs" />
+    <Compile Include="TResultBase.cs" />
+    <Compile Include="TResultCoreEvents.cs" />
+    <Compile Include="VSOP87\GCVSOPAstronomy.cs" />
+    <Compile Include="VSOP87\GCEarth.cs" />
+    <Compile Include="GCHourTime.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="GeoData\TLocation.cs" />
+    <Compile Include="GeoData\TLocationDatabase.cs" />
+    <Compile Include="GCEarthData.cs" />
+    <Compile Include="GCAyanamsha.cs" />
+    <Compile Include="GCCalendar.cs" />
+    <Compile Include="GCConjunction.cs" />
+    <Compile Include="GCDisplaySettings.cs" />
+    <Compile Include="GCFestivalBookCollection.cs" />
+    <Compile Include="GCGlobal.cs" />
+    <Compile Include="VSOP87\GCJupiter.cs" />
+    <Compile Include="GCLayoutData.cs" />
+    <Compile Include="VSOP87\GCKetu.cs" />
+    <Compile Include="VSOP87\GCMars.cs" />
+    <Compile Include="GCMath.cs" />
+    <Compile Include="VSOP87\GCMercury.cs" />
+    <Compile Include="GCNaksatra.cs" />
+    <Compile Include="GCRasi.cs" />
+    <Compile Include="GCRatedInterval.cs" />
+    <Compile Include="GCSankranti.cs" />
+    <Compile Include="VSOP87\GCRahu.cs" />
+    <Compile Include="VSOP87\GCSaturn.cs" />
+    <Compile Include="GCStrings.cs" />
+    <Compile Include="GCTextParser.cs" />
+    <Compile Include="GCTithi.cs" />
+    <Compile Include="GCUserInterface.cs" />
+    <Compile Include="VSOP87\GCVenus.cs" />
+    <Compile Include="GCWelcomeTips.cs" />
+    <Compile Include="GCYoga.cs" />
+    <Compile Include="GCMoonData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GCSunData.cs" />
+    <Compile Include="GeoData\TCountry.cs" />
+    <Compile Include="GCRichFileLine.cs" />
+    <Compile Include="TLangFileInfo.cs" />
+    <Compile Include="TLangFileList.cs" />
+    <Compile Include="TResultApp.cs" />
+    <Compile Include="TResultCalendar.cs" />
+    <Compile Include="TResultEvents.cs" />
+    <Compile Include="TResultMasaList.cs" />
+    <Compile Include="TResultRatedEvents.cs" />
+    <Compile Include="TResultToday.cs" />
+    <Compile Include="GeoData\TTimeZone.cs" />
+    <Compile Include="VAISNAVADAY.cs" />
+    <Compile Include="GaurabdaDate.cs" />
+    <Compile Include="GregorianDateTime.cs" />
+    <Compile Include="VSOP87\Testing.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\events.rl" />
+    <EmbeddedResource Include="Resources\strings.rl" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\tips.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\TemplateTodayPlain.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplTodayRtf.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplTodayPlain.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplTodayHtml.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplMasaListPlain.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplMasaListRtf.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplMasaListHtml.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplMasaListXml.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplMasaListCsv.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplAppDayPlain.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplAppDayRtf.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplAppDayHtml.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplAppDayXml.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplAppDayCsv.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCoreEventsPlain.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCoreEventsRtf.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCoreEventsHtml.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCoreEventsXml.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCoreEventsCsv.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCalendarPlain.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCalendarRtf.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCalendarHtml.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCalendarHtmlTable.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCalendarXml.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCalendarCsv.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCalendarICAL.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCalendarVCAL.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplRatedPlain.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplRatedRtf.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplRatedXml.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplRatedHtml.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplRatedCsv.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCalendarDayPlain.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\countries2016.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cities2016.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timezoneUpdates.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timezones2016.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCalendarSadhana.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TplCalendarHtmlComplete.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

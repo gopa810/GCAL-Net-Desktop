@@ -1,0 +1,63 @@
+<xml> 
+ <request name="Calendar" version="[app.versionShort]"> 
+  <arg name="longitude" val="[location.longitude]" />
+  <arg name="latitude" val="[location.latitude]" />
+  <arg name="timezone" val="[location.timeZoneName]" />
+  <arg name="startdate" val="[calendar.startDate]" />
+ </request> 
+ <result name="Calendar">
+  <dstsystem name="[location.timeZoneName]" />
+
+# (foreach k : calendar.itemIndexes
+#     (set pvd (x calendar getDay k))
+#     (if (!= nPrevMasa pvd.astro.nMasa) then
+#         (if (!= nPrevMasa -1) then
+  </masa>
+#         )
+#         (if (== nPrevMasa 12) then
+  <masa name="[pvd.astro.masaName] Masa" half="(Second half)" gyear="Gaurabda [pvd.astro.gaurabdaYear]">
+#          else
+  <masa name="[pvd.astro.masaName] Masa" gyear="Gaurabda [pvd.astro.gaurabdaYear]">
+#         )
+#      )
+# (set nPrevMasa pvd.astro.nMasa)
+   <day date="[pvd.date.shortDate]" dayweekid="[pvd.date.dayOfWeek]" dayweek="[pvd.date.dayOfWeek]">
+    <sunrise time="[pvd.astro.sunRiseTime.longTime]">
+     <tithi name="[pvd.tithiNameExt]" elapse="[pvd.astro.tithiElapsed]" index="[pvd.astro.tithi]" />
+     <naksatra name="[pvd.astro.naksatraName]" elapse="[pvd.astro.naksatraElapsed]" />
+     <yoga name="[pvd.astro.yogaName]" />
+     <paksa id="[pvd.astro.paksaAbbr]" name="[pvd.astro.paksaName]" />
+    </sunrise> 
+    <dst offset="[pvd.nDST]" />
+    <arunodaya time="[pvd.astro.arunodayaTime.longTime]">
+     <tithi name="[pvd.astro.arunodayaTithi]" />
+    </arunodaya> 
+    <noon time="[pvd.astro.noonTime.longTime] /> 
+    <sunset time="[pvd.astro.sunSetTime.longTime]" />
+#          (if pvd.ekadasiParana then
+#               (if pvd.hasParanaStart then
+    <parana from="[pvd.ekadasiParanaStart.shortTime]" to="[pvd.ekadasiParanaEnd.shortTime]" />
+#                else
+    <parana after="[pvd.ekadasiParanaStart.shortTime]" />
+#                )
+#           )
+#           (if (> pvd.visibleEvents.count 0) then 
+    <events>
+#           )
+#           (foreach h : pvd.visibleEvents
+     <festival name="[h.text]" class="[h.dispItem]" />
+#           )
+#           (if (> pvd.visibleEvents.count 0) then 
+    </events>
+#           )
+#           (if (!= pvd.fastType 0) then
+    <fast type="[pvd.fastType]" mark="[pvd.fastTypeMark]" />
+#           )
+#           (if (>= pvd.sankrantiZodiac 0) then
+    <sankranti rasi="[pvd.sankrantiZodiac]" time="[pvd.sankrantiDateTime.longTime]" />
+#           )
+   </day>  
+#		)
+  </masa> 
+ </result> 
+</xml> 

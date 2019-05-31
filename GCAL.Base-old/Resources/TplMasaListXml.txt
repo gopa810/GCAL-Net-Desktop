@@ -1,0 +1,15 @@
+<xml>
+    <body type="Masa List">
+        <location>[location.fullName]</location>
+        <items>
+# (foreach item : mlist.items
+	        <masa>
+				<name>[item.masaName]</name>
+				<year>[item.year]</year>
+				<startDate>[item.startDate.shortDate]</startDate>
+				<endDate>[item.endDate.shortDate]</endDate>
+			</masa>
+# )
+		</items>
+	</body>
+</xml>

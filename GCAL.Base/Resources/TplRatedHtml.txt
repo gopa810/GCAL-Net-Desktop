@@ -1,0 +1,28 @@
+<html>
+<head><title>Rated Events</title>
+</head>
+<body>
+<h1>RATED EVENTS</h1>
+<h4>From [events.startDate.shortDate] to [events.endDate.shortDate]<br>
+[location.fullName]</h4>
+
+# (set prevDay -1)
+# (foreach ri : events.intervals
+#   (if (!= prevDay ri.startTime.day) then
+
+<h3> === [ri.startTime.shortDate:-12s] - [ri.startTime.dayOfWeekName] ======== </h3>
+
+#   )
+#
+<p>&nbsp;&nbsp;      [ri.startTime.shortTime] - [ri.endTime.shortTime]  [ri.title:40m]  +[ri.ratingPos]  [ri.ratingNeg]</p>
+#   (set notes ri.notes)
+#   (if (!= notes.count 0) then
+#      (foreach s : notes
+<p>&nbsp;&nbsp;&nbsp;&nbsp;                 [s] </p>
+#      )
+#    )
+#  (set prevDay ri.startTime.day)
+# )
+
+</body>
+</html>

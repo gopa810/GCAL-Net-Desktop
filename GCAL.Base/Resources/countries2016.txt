@@ -1,0 +1,254 @@
+<Countries>
+  <Country ISO="AD" ISO3="AND" Fips="AN" Name="Andorra" Capital="Andorra la Vella" Area="468" Population="84000" ContinentISOCode="EU" Neighbours="ES,FR" FirstDayOfWeek="1" />
+  <Country ISO="AE" ISO3="ARE" Fips="AE" Name="United Arab Emirates" Capital="Abu Dhabi" Area="82880" Population="4975593" ContinentISOCode="AS" Neighbours="SA,OM" FirstDayOfWeek="6" />
+  <Country ISO="AF" ISO3="AFG" Fips="AF" Name="Afghanistan" Capital="Kabul" Area="647500" Population="29121286" ContinentISOCode="AS" Neighbours="TM,CN,IR,TJ,PK,UZ" FirstDayOfWeek="1" />
+  <Country ISO="AG" ISO3="ATG" Fips="AC" Name="Antigua and Barbuda" Capital="St. John's" Area="443" Population="86754" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="AI" ISO3="AIA" Fips="AV" Name="Anguilla" Capital="The Valley" Area="102" Population="13254" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="AL" ISO3="ALB" Fips="AL" Name="Albania" Capital="Tirana" Area="28748" Population="2986952" ContinentISOCode="EU" Neighbours="MK,GR,ME,RS,XK" FirstDayOfWeek="1" />
+  <Country ISO="AM" ISO3="ARM" Fips="AM" Name="Armenia" Capital="Yerevan" Area="29800" Population="2968000" ContinentISOCode="AS" Neighbours="GE,IR,AZ,TR" FirstDayOfWeek="1" />
+  <Country ISO="AO" ISO3="AGO" Fips="AO" Name="Angola" Capital="Luanda" Area="1246700" Population="13068161" ContinentISOCode="AF" Neighbours="CD,NA,ZM,CG" FirstDayOfWeek="1" />
+  <Country ISO="AQ" ISO3="ATA" Fips="AY" Name="Antarctica" Capital="" Area="14000000" Population="0" ContinentISOCode="AN" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="AR" ISO3="ARG" Fips="AR" Name="Argentina" Capital="Buenos Aires" Area="2766890" Population="41343201" ContinentISOCode="SA" Neighbours="CL,BO,UY,PY,BR" FirstDayOfWeek="1" />
+  <Country ISO="AS" ISO3="ASM" Fips="AQ" Name="American Samoa" Capital="Pago Pago" Area="199" Population="57881" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="AT" ISO3="AUT" Fips="AU" Name="Austria" Capital="Vienna" Area="83858" Population="8205000" ContinentISOCode="EU" Neighbours="CH,DE,HU,SK,CZ,IT,SI,LI" FirstDayOfWeek="1" />
+  <Country ISO="AU" ISO3="AUS" Fips="AS" Name="Australia" Capital="Canberra" Area="7686850" Population="21515754" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="0" />
+  <Country ISO="AW" ISO3="ABW" Fips="AA" Name="Aruba" Capital="Oranjestad" Area="193" Population="71566" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="AX" ISO3="ALA" Fips="" Name="Aland Islands" Capital="Mariehamn" Area="1580" Population="26711" ContinentISOCode="EU" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="AZ" ISO3="AZE" Fips="AJ" Name="Azerbaijan" Capital="Baku" Area="86600" Population="8303512" ContinentISOCode="AS" Neighbours="GE,IR,AM,TR,RU" FirstDayOfWeek="1" />
+  <Country ISO="BA" ISO3="BIH" Fips="BK" Name="Bosnia and Herzegovina" Capital="Sarajevo" Area="51129" Population="4590000" ContinentISOCode="EU" Neighbours="HR,ME,RS" FirstDayOfWeek="1" />
+  <Country ISO="BB" ISO3="BRB" Fips="BB" Name="Barbados" Capital="Bridgetown" Area="431" Population="285653" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="BD" ISO3="BGD" Fips="BG" Name="Bangladesh" Capital="Dhaka" Area="144000" Population="156118464" ContinentISOCode="AS" Neighbours="MM,IN" FirstDayOfWeek="1" />
+  <Country ISO="BE" ISO3="BEL" Fips="BE" Name="Belgium" Capital="Brussels" Area="30510" Population="10403000" ContinentISOCode="EU" Neighbours="DE,NL,LU,FR" FirstDayOfWeek="1" />
+  <Country ISO="BF" ISO3="BFA" Fips="UV" Name="Burkina Faso" Capital="Ouagadougou" Area="274200" Population="16241811" ContinentISOCode="AF" Neighbours="NE,BJ,GH,CI,TG,ML" FirstDayOfWeek="1" />
+  <Country ISO="BG" ISO3="BGR" Fips="BU" Name="Bulgaria" Capital="Sofia" Area="110910" Population="7148785" ContinentISOCode="EU" Neighbours="MK,GR,RO,TR,RS" FirstDayOfWeek="1" />
+  <Country ISO="BH" ISO3="BHR" Fips="BA" Name="Bahrain" Capital="Manama" Area="665" Population="738004" ContinentISOCode="AS" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="BI" ISO3="BDI" Fips="BY" Name="Burundi" Capital="Bujumbura" Area="27830" Population="9863117" ContinentISOCode="AF" Neighbours="TZ,CD,RW" FirstDayOfWeek="1" />
+  <Country ISO="BJ" ISO3="BEN" Fips="BN" Name="Benin" Capital="Porto-Novo" Area="112620" Population="9056010" ContinentISOCode="AF" Neighbours="NE,TG,BF,NG" FirstDayOfWeek="1" />
+  <Country ISO="BL" ISO3="BLM" Fips="TB" Name="Saint Barthelemy" Capital="Gustavia" Area="21" Population="8450" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="BM" ISO3="BMU" Fips="BD" Name="Bermuda" Capital="Hamilton" Area="53" Population="65365" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="BN" ISO3="BRN" Fips="BX" Name="Brunei" Capital="Bandar Seri Begawan" Area="5770" Population="395027" ContinentISOCode="AS" Neighbours="MY" FirstDayOfWeek="1" />
+  <Country ISO="BO" ISO3="BOL" Fips="BL" Name="Bolivia" Capital="Sucre" Area="1098580" Population="9947418" ContinentISOCode="SA" Neighbours="PE,CL,PY,BR,AR" FirstDayOfWeek="1" />
+  <Country ISO="BQ" ISO3="BES" Fips="" Name="Bonaire, Saint Eustatius and Saba " Capital="" Area="328" Population="18012" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="BR" ISO3="BRA" Fips="BR" Name="Brazil" Capital="Brasilia" Area="8511965" Population="201103330" ContinentISOCode="SA" Neighbours="SR,PE,BO,UY,GY,PY,GF,VE,CO,AR" FirstDayOfWeek="1" />
+  <Country ISO="BS" ISO3="BHS" Fips="BF" Name="Bahamas" Capital="Nassau" Area="13940" Population="301790" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="BT" ISO3="BTN" Fips="BT" Name="Bhutan" Capital="Thimphu" Area="47000" Population="699847" ContinentISOCode="AS" Neighbours="CN,IN" FirstDayOfWeek="1" />
+  <Country ISO="BV" ISO3="BVT" Fips="BV" Name="Bouvet Island" Capital="" Area="49" Population="0" ContinentISOCode="AN" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="BW" ISO3="BWA" Fips="BC" Name="Botswana" Capital="Gaborone" Area="600370" Population="2029307" ContinentISOCode="AF" Neighbours="ZW,ZA,NA" FirstDayOfWeek="1" />
+  <Country ISO="BY" ISO3="BLR" Fips="BO" Name="Belarus" Capital="Minsk" Area="207600" Population="9685000" ContinentISOCode="EU" Neighbours="PL,LT,UA,RU,LV" FirstDayOfWeek="1" />
+  <Country ISO="BZ" ISO3="BLZ" Fips="BH" Name="Belize" Capital="Belmopan" Area="22966" Population="314522" ContinentISOCode="NA" Neighbours="GT,MX" FirstDayOfWeek="1" />
+  <Country ISO="CA" ISO3="CAN" Fips="CA" Name="Canada" Capital="Ottawa" Area="9984670" Population="33679000" ContinentISOCode="NA" Neighbours="US" FirstDayOfWeek="1" />
+  <Country ISO="CC" ISO3="CCK" Fips="CK" Name="Cocos Islands" Capital="West Island" Area="14" Population="628" ContinentISOCode="AS" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="CD" ISO3="COD" Fips="CG" Name="Democratic Republic of the Congo" Capital="Kinshasa" Area="2345410" Population="70916439" ContinentISOCode="AF" Neighbours="TZ,CF,SS,RW,ZM,BI,UG,CG,AO" FirstDayOfWeek="1" />
+  <Country ISO="CF" ISO3="CAF" Fips="CT" Name="Central African Republic" Capital="Bangui" Area="622984" Population="4844927" ContinentISOCode="AF" Neighbours="TD,SD,CD,SS,CM,CG" FirstDayOfWeek="1" />
+  <Country ISO="CG" ISO3="COG" Fips="CF" Name="Republic of the Congo" Capital="Brazzaville" Area="342000" Population="3039126" ContinentISOCode="AF" Neighbours="CF,GA,CD,CM,AO" FirstDayOfWeek="1" />
+  <Country ISO="CH" ISO3="CHE" Fips="SZ" Name="Switzerland" Capital="Bern" Area="41290" Population="7581000" ContinentISOCode="EU" Neighbours="DE,IT,LI,FR,AT" FirstDayOfWeek="1" />
+  <Country ISO="CI" ISO3="CIV" Fips="IV" Name="Ivory Coast" Capital="Yamoussoukro" Area="322460" Population="21058798" ContinentISOCode="AF" Neighbours="LR,GH,GN,BF,ML" FirstDayOfWeek="1" />
+  <Country ISO="CK" ISO3="COK" Fips="CW" Name="Cook Islands" Capital="Avarua" Area="240" Population="21388" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="CL" ISO3="CHL" Fips="CI" Name="Chile" Capital="Santiago" Area="756950" Population="16746491" ContinentISOCode="SA" Neighbours="PE,BO,AR" FirstDayOfWeek="1" />
+  <Country ISO="CM" ISO3="CMR" Fips="CM" Name="Cameroon" Capital="Yaounde" Area="475440" Population="19294149" ContinentISOCode="AF" Neighbours="TD,CF,GA,GQ,CG,NG" FirstDayOfWeek="1" />
+  <Country ISO="CN" ISO3="CHN" Fips="CH" Name="China" Capital="Beijing" Area="9596960" Population="1330044000" ContinentISOCode="AS" Neighbours="LA,BT,TJ,KZ,MN,AF,NP,MM,KG,PK,KP,RU,VN,IN" FirstDayOfWeek="1" />
+  <Country ISO="CO" ISO3="COL" Fips="CO" Name="Colombia" Capital="Bogota" Area="1138910" Population="47790000" ContinentISOCode="SA" Neighbours="EC,PE,PA,BR,VE" FirstDayOfWeek="1" />
+  <Country ISO="CR" ISO3="CRI" Fips="CS" Name="Costa Rica" Capital="San Jose" Area="51100" Population="4516220" ContinentISOCode="NA" Neighbours="PA,NI" FirstDayOfWeek="1" />
+  <Country ISO="CU" ISO3="CUB" Fips="CU" Name="Cuba" Capital="Havana" Area="110860" Population="11423000" ContinentISOCode="NA" Neighbours="US" FirstDayOfWeek="1" />
+  <Country ISO="CV" ISO3="CPV" Fips="CV" Name="Cape Verde" Capital="Praia" Area="4033" Population="508659" ContinentISOCode="AF" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="CW" ISO3="CUW" Fips="UC" Name="Curacao" Capital=" Willemstad" Area="444" Population="141766" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="CX" ISO3="CXR" Fips="KT" Name="Christmas Island" Capital="Flying Fish Cove" Area="135" Population="1500" ContinentISOCode="AS" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="CY" ISO3="CYP" Fips="CY" Name="Cyprus" Capital="Nicosia" Area="9250" Population="1102677" ContinentISOCode="EU" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="CZ" ISO3="CZE" Fips="EZ" Name="Czechia" Capital="Prague" Area="78866" Population="10476000" ContinentISOCode="EU" Neighbours="PL,DE,SK,AT" FirstDayOfWeek="1" />
+  <Country ISO="DE" ISO3="DEU" Fips="GM" Name="Germany" Capital="Berlin" Area="357021" Population="81802257" ContinentISOCode="EU" Neighbours="CH,PL,NL,DK,BE,CZ,LU,FR,AT" FirstDayOfWeek="1" />
+  <Country ISO="DJ" ISO3="DJI" Fips="DJ" Name="Djibouti" Capital="Djibouti" Area="23000" Population="740528" ContinentISOCode="AF" Neighbours="ER,ET,SO" FirstDayOfWeek="1" />
+  <Country ISO="DK" ISO3="DNK" Fips="DA" Name="Denmark" Capital="Copenhagen" Area="43094" Population="5484000" ContinentISOCode="EU" Neighbours="DE" FirstDayOfWeek="1" />
+  <Country ISO="DM" ISO3="DMA" Fips="DO" Name="Dominica" Capital="Roseau" Area="754" Population="72813" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="DO" ISO3="DOM" Fips="DR" Name="Dominican Republic" Capital="Santo Domingo" Area="48730" Population="9823821" ContinentISOCode="NA" Neighbours="HT" FirstDayOfWeek="1" />
+  <Country ISO="DZ" ISO3="DZA" Fips="AG" Name="Algeria" Capital="Algiers" Area="2381740" Population="34586184" ContinentISOCode="AF" Neighbours="NE,EH,LY,MR,TN,MA,ML" FirstDayOfWeek="1" />
+  <Country ISO="EC" ISO3="ECU" Fips="EC" Name="Ecuador" Capital="Quito" Area="283560" Population="14790608" ContinentISOCode="SA" Neighbours="PE,CO" FirstDayOfWeek="1" />
+  <Country ISO="EE" ISO3="EST" Fips="EN" Name="Estonia" Capital="Tallinn" Area="45226" Population="1291170" ContinentISOCode="EU" Neighbours="RU,LV" FirstDayOfWeek="1" />
+  <Country ISO="EG" ISO3="EGY" Fips="EG" Name="Egypt" Capital="Cairo" Area="1001450" Population="80471869" ContinentISOCode="AF" Neighbours="LY,SD,IL,PS" FirstDayOfWeek="1" />
+  <Country ISO="EH" ISO3="ESH" Fips="WI" Name="Western Sahara" Capital="El-Aaiun" Area="266000" Population="273008" ContinentISOCode="AF" Neighbours="DZ,MR,MA" FirstDayOfWeek="1" />
+  <Country ISO="ER" ISO3="ERI" Fips="ER" Name="Eritrea" Capital="Asmara" Area="121320" Population="5792984" ContinentISOCode="AF" Neighbours="ET,SD,DJ" FirstDayOfWeek="1" />
+  <Country ISO="ES" ISO3="ESP" Fips="SP" Name="Spain" Capital="Madrid" Area="504782" Population="46505963" ContinentISOCode="EU" Neighbours="AD,PT,GI,FR,MA" FirstDayOfWeek="1" />
+  <Country ISO="ET" ISO3="ETH" Fips="ET" Name="Ethiopia" Capital="Addis Ababa" Area="1127127" Population="88013491" ContinentISOCode="AF" Neighbours="ER,KE,SD,SS,SO,DJ" FirstDayOfWeek="1" />
+  <Country ISO="FI" ISO3="FIN" Fips="FI" Name="Finland" Capital="Helsinki" Area="337030" Population="5244000" ContinentISOCode="EU" Neighbours="NO,RU,SE" FirstDayOfWeek="1" />
+  <Country ISO="FJ" ISO3="FJI" Fips="FJ" Name="Fiji" Capital="Suva" Area="18270" Population="875983" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="FK" ISO3="FLK" Fips="FK" Name="Falkland Islands" Capital="Stanley" Area="12173" Population="2638" ContinentISOCode="SA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="FM" ISO3="FSM" Fips="FM" Name="Micronesia" Capital="Palikir" Area="702" Population="107708" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="FO" ISO3="FRO" Fips="FO" Name="Faroe Islands" Capital="Torshavn" Area="1399" Population="48228" ContinentISOCode="EU" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="FR" ISO3="FRA" Fips="FR" Name="France" Capital="Paris" Area="547030" Population="64768389" ContinentISOCode="EU" Neighbours="CH,DE,BE,LU,IT,AD,MC,ES" FirstDayOfWeek="1" />
+  <Country ISO="GA" ISO3="GAB" Fips="GB" Name="Gabon" Capital="Libreville" Area="267667" Population="1545255" ContinentISOCode="AF" Neighbours="CM,GQ,CG" FirstDayOfWeek="1" />
+  <Country ISO="GB" ISO3="GBR" Fips="UK" Name="United Kingdom" Capital="London" Area="244820" Population="62348447" ContinentISOCode="EU" Neighbours="IE" FirstDayOfWeek="0" />
+  <Country ISO="GD" ISO3="GRD" Fips="GJ" Name="Grenada" Capital="St. George's" Area="344" Population="107818" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="GE" ISO3="GEO" Fips="GG" Name="Georgia" Capital="Tbilisi" Area="69700" Population="4630000" ContinentISOCode="AS" Neighbours="AM,AZ,TR,RU" FirstDayOfWeek="1" />
+  <Country ISO="GF" ISO3="GUF" Fips="FG" Name="French Guiana" Capital="Cayenne" Area="91000" Population="195506" ContinentISOCode="SA" Neighbours="SR,BR" FirstDayOfWeek="1" />
+  <Country ISO="GG" ISO3="GGY" Fips="GK" Name="Guernsey" Capital="St Peter Port" Area="78" Population="65228" ContinentISOCode="EU" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="GH" ISO3="GHA" Fips="GH" Name="Ghana" Capital="Accra" Area="239460" Population="24339838" ContinentISOCode="AF" Neighbours="CI,TG,BF" FirstDayOfWeek="1" />
+  <Country ISO="GI" ISO3="GIB" Fips="GI" Name="Gibraltar" Capital="Gibraltar" Area="6.5" Population="27884" ContinentISOCode="EU" Neighbours="ES" FirstDayOfWeek="1" />
+  <Country ISO="GL" ISO3="GRL" Fips="GL" Name="Greenland" Capital="Nuuk" Area="2166086" Population="56375" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="GM" ISO3="GMB" Fips="GA" Name="Gambia" Capital="Banjul" Area="11300" Population="1593256" ContinentISOCode="AF" Neighbours="SN" FirstDayOfWeek="1" />
+  <Country ISO="GN" ISO3="GIN" Fips="GV" Name="Guinea" Capital="Conakry" Area="245857" Population="10324025" ContinentISOCode="AF" Neighbours="LR,SN,SL,CI,GW,ML" FirstDayOfWeek="1" />
+  <Country ISO="GP" ISO3="GLP" Fips="GP" Name="Guadeloupe" Capital="Basse-Terre" Area="1780" Population="443000" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="GQ" ISO3="GNQ" Fips="EK" Name="Equatorial Guinea" Capital="Malabo" Area="28051" Population="1014999" ContinentISOCode="AF" Neighbours="GA,CM" FirstDayOfWeek="1" />
+  <Country ISO="GR" ISO3="GRC" Fips="GR" Name="Greece" Capital="Athens" Area="131940" Population="11000000" ContinentISOCode="EU" Neighbours="AL,MK,TR,BG" FirstDayOfWeek="1" />
+  <Country ISO="GS" ISO3="SGS" Fips="SX" Name="South Georgia and the South Sandwich Islands" Capital="Grytviken" Area="3903" Population="30" ContinentISOCode="AN" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="GT" ISO3="GTM" Fips="GT" Name="Guatemala" Capital="Guatemala City" Area="108890" Population="13550440" ContinentISOCode="NA" Neighbours="MX,HN,BZ,SV" FirstDayOfWeek="1" />
+  <Country ISO="GU" ISO3="GUM" Fips="GQ" Name="Guam" Capital="Hagatna" Area="549" Population="159358" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="GW" ISO3="GNB" Fips="PU" Name="Guinea-Bissau" Capital="Bissau" Area="36120" Population="1565126" ContinentISOCode="AF" Neighbours="SN,GN" FirstDayOfWeek="1" />
+  <Country ISO="GY" ISO3="GUY" Fips="GY" Name="Guyana" Capital="Georgetown" Area="214970" Population="748486" ContinentISOCode="SA" Neighbours="SR,BR,VE" FirstDayOfWeek="1" />
+  <Country ISO="HK" ISO3="HKG" Fips="HK" Name="Hong Kong" Capital="Hong Kong" Area="1092" Population="6898686" ContinentISOCode="AS" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="HM" ISO3="HMD" Fips="HM" Name="Heard Island and McDonald Islands" Capital="" Area="412" Population="0" ContinentISOCode="AN" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="HN" ISO3="HND" Fips="HO" Name="Honduras" Capital="Tegucigalpa" Area="112090" Population="7989415" ContinentISOCode="NA" Neighbours="GT,NI,SV" FirstDayOfWeek="1" />
+  <Country ISO="HR" ISO3="HRV" Fips="HR" Name="Croatia" Capital="Zagreb" Area="56542" Population="4284889" ContinentISOCode="EU" Neighbours="HU,SI,BA,ME,RS" FirstDayOfWeek="1" />
+  <Country ISO="HT" ISO3="HTI" Fips="HA" Name="Haiti" Capital="Port-au-Prince" Area="27750" Population="9648924" ContinentISOCode="NA" Neighbours="DO" FirstDayOfWeek="1" />
+  <Country ISO="HU" ISO3="HUN" Fips="HU" Name="Hungary" Capital="Budapest" Area="93030" Population="9982000" ContinentISOCode="EU" Neighbours="SK,SI,RO,UA,HR,AT,RS" FirstDayOfWeek="1" />
+  <Country ISO="ID" ISO3="IDN" Fips="ID" Name="Indonesia" Capital="Jakarta" Area="1919440" Population="242968342" ContinentISOCode="AS" Neighbours="PG,TL,MY" FirstDayOfWeek="1" />
+  <Country ISO="IE" ISO3="IRL" Fips="EI" Name="Ireland" Capital="Dublin" Area="70280" Population="4622917" ContinentISOCode="EU" Neighbours="GB" FirstDayOfWeek="0" />
+  <Country ISO="IL" ISO3="ISR" Fips="IS" Name="Israel" Capital="Jerusalem" Area="20770" Population="7353985" ContinentISOCode="AS" Neighbours="SY,JO,LB,EG,PS" FirstDayOfWeek="1" />
+  <Country ISO="IM" ISO3="IMN" Fips="IM" Name="Isle of Man" Capital="Douglas" Area="572" Population="75049" ContinentISOCode="EU" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="IN" ISO3="IND" Fips="IN" Name="India" Capital="New Delhi" Area="3287590" Population="1173108018" ContinentISOCode="AS" Neighbours="CN,NP,MM,BT,PK,BD" FirstDayOfWeek="1" />
+  <Country ISO="IO" ISO3="IOT" Fips="IO" Name="British Indian Ocean Territory" Capital="Diego Garcia" Area="60" Population="4000" ContinentISOCode="AS" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="IQ" ISO3="IRQ" Fips="IZ" Name="Iraq" Capital="Baghdad" Area="437072" Population="29671605" ContinentISOCode="AS" Neighbours="SY,SA,IR,JO,TR,KW" FirstDayOfWeek="1" />
+  <Country ISO="IR" ISO3="IRN" Fips="IR" Name="Iran" Capital="Tehran" Area="1648000" Population="76923300" ContinentISOCode="AS" Neighbours="TM,AF,IQ,AM,PK,AZ,TR" FirstDayOfWeek="1" />
+  <Country ISO="IS" ISO3="ISL" Fips="IC" Name="Iceland" Capital="Reykjavik" Area="103000" Population="308910" ContinentISOCode="EU" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="IT" ISO3="ITA" Fips="IT" Name="Italy" Capital="Rome" Area="301230" Population="60340328" ContinentISOCode="EU" Neighbours="CH,VA,SI,SM,FR,AT" FirstDayOfWeek="1" />
+  <Country ISO="JE" ISO3="JEY" Fips="JE" Name="Jersey" Capital="Saint Helier" Area="116" Population="90812" ContinentISOCode="EU" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="JM" ISO3="JAM" Fips="JM" Name="Jamaica" Capital="Kingston" Area="10991" Population="2847232" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="JO" ISO3="JOR" Fips="JO" Name="Jordan" Capital="Amman" Area="92300" Population="6407085" ContinentISOCode="AS" Neighbours="SY,SA,IQ,IL,PS" FirstDayOfWeek="1" />
+  <Country ISO="JP" ISO3="JPN" Fips="JA" Name="Japan" Capital="Tokyo" Area="377835" Population="127288000" ContinentISOCode="AS" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="KE" ISO3="KEN" Fips="KE" Name="Kenya" Capital="Nairobi" Area="582650" Population="40046566" ContinentISOCode="AF" Neighbours="ET,TZ,SS,SO,UG" FirstDayOfWeek="1" />
+  <Country ISO="KG" ISO3="KGZ" Fips="KG" Name="Kyrgyzstan" Capital="Bishkek" Area="198500" Population="5776500" ContinentISOCode="AS" Neighbours="CN,TJ,UZ,KZ" FirstDayOfWeek="1" />
+  <Country ISO="KH" ISO3="KHM" Fips="CB" Name="Cambodia" Capital="Phnom Penh" Area="181040" Population="14453680" ContinentISOCode="AS" Neighbours="LA,TH,VN" FirstDayOfWeek="1" />
+  <Country ISO="KI" ISO3="KIR" Fips="KR" Name="Kiribati" Capital="Tarawa" Area="811" Population="92533" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="KM" ISO3="COM" Fips="CN" Name="Comoros" Capital="Moroni" Area="2170" Population="773407" ContinentISOCode="AF" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="KN" ISO3="KNA" Fips="SC" Name="Saint Kitts and Nevis" Capital="Basseterre" Area="261" Population="51134" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="KP" ISO3="PRK" Fips="KN" Name="North Korea" Capital="Pyongyang" Area="120540" Population="22912177" ContinentISOCode="AS" Neighbours="CN,KR,RU" FirstDayOfWeek="1" />
+  <Country ISO="KR" ISO3="KOR" Fips="KS" Name="South Korea" Capital="Seoul" Area="98480" Population="48422644" ContinentISOCode="AS" Neighbours="KP" FirstDayOfWeek="1" />
+  <Country ISO="XK" ISO3="XKX" Fips="KV" Name="Kosovo" Capital="Pristina" Area="10908" Population="1800000" ContinentISOCode="EU" Neighbours="RS,AL,MK,ME" FirstDayOfWeek="1" />
+  <Country ISO="KW" ISO3="KWT" Fips="KU" Name="Kuwait" Capital="Kuwait City" Area="17820" Population="2789132" ContinentISOCode="AS" Neighbours="SA,IQ" FirstDayOfWeek="1" />
+  <Country ISO="KY" ISO3="CYM" Fips="CJ" Name="Cayman Islands" Capital="George Town" Area="262" Population="44270" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="KZ" ISO3="KAZ" Fips="KZ" Name="Kazakhstan" Capital="Astana" Area="2717300" Population="15340000" ContinentISOCode="AS" Neighbours="TM,CN,KG,UZ,RU" FirstDayOfWeek="1" />
+  <Country ISO="LA" ISO3="LAO" Fips="LA" Name="Laos" Capital="Vientiane" Area="236800" Population="6368162" ContinentISOCode="AS" Neighbours="CN,MM,KH,TH,VN" FirstDayOfWeek="1" />
+  <Country ISO="LB" ISO3="LBN" Fips="LE" Name="Lebanon" Capital="Beirut" Area="10400" Population="4125247" ContinentISOCode="AS" Neighbours="SY,IL" FirstDayOfWeek="1" />
+  <Country ISO="LC" ISO3="LCA" Fips="ST" Name="Saint Lucia" Capital="Castries" Area="616" Population="160922" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="LI" ISO3="LIE" Fips="LS" Name="Liechtenstein" Capital="Vaduz" Area="160" Population="35000" ContinentISOCode="EU" Neighbours="CH,AT" FirstDayOfWeek="1" />
+  <Country ISO="LK" ISO3="LKA" Fips="CE" Name="Sri Lanka" Capital="Colombo" Area="65610" Population="21513990" ContinentISOCode="AS" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="LR" ISO3="LBR" Fips="LI" Name="Liberia" Capital="Monrovia" Area="111370" Population="3685076" ContinentISOCode="AF" Neighbours="SL,CI,GN" FirstDayOfWeek="1" />
+  <Country ISO="LS" ISO3="LSO" Fips="LT" Name="Lesotho" Capital="Maseru" Area="30355" Population="1919552" ContinentISOCode="AF" Neighbours="ZA" FirstDayOfWeek="1" />
+  <Country ISO="LT" ISO3="LTU" Fips="LH" Name="Lithuania" Capital="Vilnius" Area="65200" Population="2944459" ContinentISOCode="EU" Neighbours="PL,BY,RU,LV" FirstDayOfWeek="1" />
+  <Country ISO="LU" ISO3="LUX" Fips="LU" Name="Luxembourg" Capital="Luxembourg" Area="2586" Population="497538" ContinentISOCode="EU" Neighbours="DE,BE,FR" FirstDayOfWeek="1" />
+  <Country ISO="LV" ISO3="LVA" Fips="LG" Name="Latvia" Capital="Riga" Area="64589" Population="2217969" ContinentISOCode="EU" Neighbours="LT,EE,BY,RU" FirstDayOfWeek="1" />
+  <Country ISO="LY" ISO3="LBY" Fips="LY" Name="Libya" Capital="Tripoli" Area="1759540" Population="6461454" ContinentISOCode="AF" Neighbours="TD,NE,DZ,SD,TN,EG" FirstDayOfWeek="1" />
+  <Country ISO="MA" ISO3="MAR" Fips="MO" Name="Morocco" Capital="Rabat" Area="446550" Population="31627428" ContinentISOCode="AF" Neighbours="DZ,EH,ES" FirstDayOfWeek="1" />
+  <Country ISO="MC" ISO3="MCO" Fips="MN" Name="Monaco" Capital="Monaco" Area="1.95" Population="32965" ContinentISOCode="EU" Neighbours="FR" FirstDayOfWeek="1" />
+  <Country ISO="MD" ISO3="MDA" Fips="MD" Name="Moldova" Capital="Chisinau" Area="33843" Population="4324000" ContinentISOCode="EU" Neighbours="RO,UA" FirstDayOfWeek="1" />
+  <Country ISO="ME" ISO3="MNE" Fips="MJ" Name="Montenegro" Capital="Podgorica" Area="14026" Population="666730" ContinentISOCode="EU" Neighbours="AL,HR,BA,RS,XK" FirstDayOfWeek="1" />
+  <Country ISO="MF" ISO3="MAF" Fips="RN" Name="Saint Martin" Capital="Marigot" Area="53" Population="35925" ContinentISOCode="NA" Neighbours="SX" FirstDayOfWeek="1" />
+  <Country ISO="MG" ISO3="MDG" Fips="MA" Name="Madagascar" Capital="Antananarivo" Area="587040" Population="21281844" ContinentISOCode="AF" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="MH" ISO3="MHL" Fips="RM" Name="Marshall Islands" Capital="Majuro" Area="181.3" Population="65859" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="MK" ISO3="MKD" Fips="MK" Name="Macedonia" Capital="Skopje" Area="25333" Population="2062294" ContinentISOCode="EU" Neighbours="AL,GR,BG,RS,XK" FirstDayOfWeek="1" />
+  <Country ISO="ML" ISO3="MLI" Fips="ML" Name="Mali" Capital="Bamako" Area="1240000" Population="13796354" ContinentISOCode="AF" Neighbours="SN,NE,DZ,CI,GN,MR,BF" FirstDayOfWeek="1" />
+  <Country ISO="MM" ISO3="MMR" Fips="BM" Name="Myanmar" Capital="Nay Pyi Taw" Area="678500" Population="53414374" ContinentISOCode="AS" Neighbours="CN,LA,TH,BD,IN" FirstDayOfWeek="1" />
+  <Country ISO="MN" ISO3="MNG" Fips="MG" Name="Mongolia" Capital="Ulan Bator" Area="1565000" Population="3086918" ContinentISOCode="AS" Neighbours="CN,RU" FirstDayOfWeek="1" />
+  <Country ISO="MO" ISO3="MAC" Fips="MC" Name="Macao" Capital="Macao" Area="254" Population="449198" ContinentISOCode="AS" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="MP" ISO3="MNP" Fips="CQ" Name="Northern Mariana Islands" Capital="Saipan" Area="477" Population="53883" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="MQ" ISO3="MTQ" Fips="MB" Name="Martinique" Capital="Fort-de-France" Area="1100" Population="432900" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="MR" ISO3="MRT" Fips="MR" Name="Mauritania" Capital="Nouakchott" Area="1030700" Population="3205060" ContinentISOCode="AF" Neighbours="SN,DZ,EH,ML" FirstDayOfWeek="1" />
+  <Country ISO="MS" ISO3="MSR" Fips="MH" Name="Montserrat" Capital="Plymouth" Area="102" Population="9341" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="MT" ISO3="MLT" Fips="MT" Name="Malta" Capital="Valletta" Area="316" Population="403000" ContinentISOCode="EU" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="MU" ISO3="MUS" Fips="MP" Name="Mauritius" Capital="Port Louis" Area="2040" Population="1294104" ContinentISOCode="AF" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="MV" ISO3="MDV" Fips="MV" Name="Maldives" Capital="Male" Area="300" Population="395650" ContinentISOCode="AS" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="MW" ISO3="MWI" Fips="MI" Name="Malawi" Capital="Lilongwe" Area="118480" Population="15447500" ContinentISOCode="AF" Neighbours="TZ,MZ,ZM" FirstDayOfWeek="1" />
+  <Country ISO="MX" ISO3="MEX" Fips="MX" Name="Mexico" Capital="Mexico City" Area="1972550" Population="112468855" ContinentISOCode="NA" Neighbours="GT,US,BZ" FirstDayOfWeek="1" />
+  <Country ISO="MY" ISO3="MYS" Fips="MY" Name="Malaysia" Capital="Kuala Lumpur" Area="329750" Population="28274729" ContinentISOCode="AS" Neighbours="BN,TH,ID" FirstDayOfWeek="1" />
+  <Country ISO="MZ" ISO3="MOZ" Fips="MZ" Name="Mozambique" Capital="Maputo" Area="801590" Population="22061451" ContinentISOCode="AF" Neighbours="ZW,TZ,SZ,ZA,ZM,MW" FirstDayOfWeek="1" />
+  <Country ISO="NA" ISO3="NAM" Fips="WA" Name="Namibia" Capital="Windhoek" Area="825418" Population="2128471" ContinentISOCode="AF" Neighbours="ZA,BW,ZM,AO" FirstDayOfWeek="1" />
+  <Country ISO="NC" ISO3="NCL" Fips="NC" Name="New Caledonia" Capital="Noumea" Area="19060" Population="216494" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="NE" ISO3="NER" Fips="NG" Name="Niger" Capital="Niamey" Area="1267000" Population="15878271" ContinentISOCode="AF" Neighbours="TD,BJ,DZ,LY,BF,NG,ML" FirstDayOfWeek="1" />
+  <Country ISO="NF" ISO3="NFK" Fips="NF" Name="Norfolk Island" Capital="Kingston" Area="34.6" Population="1828" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="NG" ISO3="NGA" Fips="NI" Name="Nigeria" Capital="Abuja" Area="923768" Population="154000000" ContinentISOCode="AF" Neighbours="TD,NE,BJ,CM" FirstDayOfWeek="1" />
+  <Country ISO="NI" ISO3="NIC" Fips="NU" Name="Nicaragua" Capital="Managua" Area="129494" Population="5995928" ContinentISOCode="NA" Neighbours="CR,HN" FirstDayOfWeek="1" />
+  <Country ISO="NL" ISO3="NLD" Fips="NL" Name="Netherlands" Capital="Amsterdam" Area="41526" Population="16645000" ContinentISOCode="EU" Neighbours="DE,BE" FirstDayOfWeek="1" />
+  <Country ISO="NO" ISO3="NOR" Fips="NO" Name="Norway" Capital="Oslo" Area="324220" Population="5009150" ContinentISOCode="EU" Neighbours="FI,RU,SE" FirstDayOfWeek="1" />
+  <Country ISO="NP" ISO3="NPL" Fips="NP" Name="Nepal" Capital="Kathmandu" Area="140800" Population="28951852" ContinentISOCode="AS" Neighbours="CN,IN" FirstDayOfWeek="1" />
+  <Country ISO="NR" ISO3="NRU" Fips="NR" Name="Nauru" Capital="Yaren" Area="21" Population="10065" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="NU" ISO3="NIU" Fips="NE" Name="Niue" Capital="Alofi" Area="260" Population="2166" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="NZ" ISO3="NZL" Fips="NZ" Name="New Zealand" Capital="Wellington" Area="268680" Population="4252277" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="0" />
+  <Country ISO="OM" ISO3="OMN" Fips="MU" Name="Oman" Capital="Muscat" Area="212460" Population="2967717" ContinentISOCode="AS" Neighbours="SA,YE,AE" FirstDayOfWeek="1" />
+  <Country ISO="PA" ISO3="PAN" Fips="PM" Name="Panama" Capital="Panama City" Area="78200" Population="3410676" ContinentISOCode="NA" Neighbours="CR,CO" FirstDayOfWeek="1" />
+  <Country ISO="PE" ISO3="PER" Fips="PE" Name="Peru" Capital="Lima" Area="1285220" Population="29907003" ContinentISOCode="SA" Neighbours="EC,CL,BO,BR,CO" FirstDayOfWeek="1" />
+  <Country ISO="PF" ISO3="PYF" Fips="FP" Name="French Polynesia" Capital="Papeete" Area="4167" Population="270485" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="PG" ISO3="PNG" Fips="PP" Name="Papua New Guinea" Capital="Port Moresby" Area="462840" Population="6064515" ContinentISOCode="OC" Neighbours="ID" FirstDayOfWeek="1" />
+  <Country ISO="PH" ISO3="PHL" Fips="RP" Name="Philippines" Capital="Manila" Area="300000" Population="99900177" ContinentISOCode="AS" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="PK" ISO3="PAK" Fips="PK" Name="Pakistan" Capital="Islamabad" Area="803940" Population="184404791" ContinentISOCode="AS" Neighbours="CN,AF,IR,IN" FirstDayOfWeek="1" />
+  <Country ISO="PL" ISO3="POL" Fips="PL" Name="Poland" Capital="Warsaw" Area="312685" Population="38500000" ContinentISOCode="EU" Neighbours="DE,LT,SK,CZ,BY,UA,RU" FirstDayOfWeek="1" />
+  <Country ISO="PM" ISO3="SPM" Fips="SB" Name="Saint Pierre and Miquelon" Capital="Saint-Pierre" Area="242" Population="7012" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="PN" ISO3="PCN" Fips="PC" Name="Pitcairn" Capital="Adamstown" Area="47" Population="46" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="PR" ISO3="PRI" Fips="RQ" Name="Puerto Rico" Capital="San Juan" Area="9104" Population="3916632" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="PS" ISO3="PSE" Fips="WE" Name="Palestinian Territory" Capital="East Jerusalem" Area="5970" Population="3800000" ContinentISOCode="AS" Neighbours="JO,IL,EG" FirstDayOfWeek="1" />
+  <Country ISO="PT" ISO3="PRT" Fips="PO" Name="Portugal" Capital="Lisbon" Area="92391" Population="10676000" ContinentISOCode="EU" Neighbours="ES" FirstDayOfWeek="1" />
+  <Country ISO="PW" ISO3="PLW" Fips="PS" Name="Palau" Capital="Melekeok" Area="458" Population="19907" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="PY" ISO3="PRY" Fips="PA" Name="Paraguay" Capital="Asuncion" Area="406750" Population="6375830" ContinentISOCode="SA" Neighbours="BO,BR,AR" FirstDayOfWeek="1" />
+  <Country ISO="QA" ISO3="QAT" Fips="QA" Name="Qatar" Capital="Doha" Area="11437" Population="840926" ContinentISOCode="AS" Neighbours="SA" FirstDayOfWeek="1" />
+  <Country ISO="RE" ISO3="REU" Fips="RE" Name="Reunion" Capital="Saint-Denis" Area="2517" Population="776948" ContinentISOCode="AF" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="RO" ISO3="ROU" Fips="RO" Name="Romania" Capital="Bucharest" Area="237500" Population="21959278" ContinentISOCode="EU" Neighbours="MD,HU,UA,BG,RS" FirstDayOfWeek="1" />
+  <Country ISO="RS" ISO3="SRB" Fips="RI" Name="Serbia" Capital="Belgrade" Area="88361" Population="7344847" ContinentISOCode="EU" Neighbours="AL,HU,MK,RO,HR,BA,BG,ME,XK" FirstDayOfWeek="1" />
+  <Country ISO="RU" ISO3="RUS" Fips="RS" Name="Russia" Capital="Moscow" Area="17100000" Population="140702000" ContinentISOCode="EU" Neighbours="GE,CN,BY,UA,KZ,LV,PL,EE,LT,FI,MN,NO,AZ,KP" FirstDayOfWeek="1" />
+  <Country ISO="RW" ISO3="RWA" Fips="RW" Name="Rwanda" Capital="Kigali" Area="26338" Population="11055976" ContinentISOCode="AF" Neighbours="TZ,CD,BI,UG" FirstDayOfWeek="1" />
+  <Country ISO="SA" ISO3="SAU" Fips="SA" Name="Saudi Arabia" Capital="Riyadh" Area="1960582" Population="25731776" ContinentISOCode="AS" Neighbours="QA,OM,IQ,YE,JO,AE,KW" FirstDayOfWeek="1" />
+  <Country ISO="SB" ISO3="SLB" Fips="BP" Name="Solomon Islands" Capital="Honiara" Area="28450" Population="559198" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="SC" ISO3="SYC" Fips="SE" Name="Seychelles" Capital="Victoria" Area="455" Population="88340" ContinentISOCode="AF" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="SD" ISO3="SDN" Fips="SU" Name="Sudan" Capital="Khartoum" Area="1861484" Population="35000000" ContinentISOCode="AF" Neighbours="SS,TD,EG,ET,ER,LY,CF" FirstDayOfWeek="1" />
+  <Country ISO="SS" ISO3="SSD" Fips="OD" Name="South Sudan" Capital="Juba" Area="644329" Population="8260490" ContinentISOCode="AF" Neighbours="CD,CF,ET,KE,SD,UG," FirstDayOfWeek="1" />
+  <Country ISO="SE" ISO3="SWE" Fips="SW" Name="Sweden" Capital="Stockholm" Area="449964" Population="9828655" ContinentISOCode="EU" Neighbours="NO,FI" FirstDayOfWeek="1" />
+  <Country ISO="SG" ISO3="SGP" Fips="SN" Name="Singapore" Capital="Singapore" Area="692.7" Population="4701069" ContinentISOCode="AS" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="SH" ISO3="SHN" Fips="SH" Name="Saint Helena" Capital="Jamestown" Area="410" Population="7460" ContinentISOCode="AF" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="SI" ISO3="SVN" Fips="SI" Name="Slovenia" Capital="Ljubljana" Area="20273" Population="2007000" ContinentISOCode="EU" Neighbours="HU,IT,HR,AT" FirstDayOfWeek="1" />
+  <Country ISO="SJ" ISO3="SJM" Fips="SV" Name="Svalbard and Jan Mayen" Capital="Longyearbyen" Area="62049" Population="2550" ContinentISOCode="EU" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="SK" ISO3="SVK" Fips="LO" Name="Slovakia" Capital="Bratislava" Area="48845" Population="5455000" ContinentISOCode="EU" Neighbours="PL,HU,CZ,UA,AT" FirstDayOfWeek="1" />
+  <Country ISO="SL" ISO3="SLE" Fips="SL" Name="Sierra Leone" Capital="Freetown" Area="71740" Population="5245695" ContinentISOCode="AF" Neighbours="LR,GN" FirstDayOfWeek="1" />
+  <Country ISO="SM" ISO3="SMR" Fips="SM" Name="San Marino" Capital="San Marino" Area="61.2" Population="31477" ContinentISOCode="EU" Neighbours="IT" FirstDayOfWeek="1" />
+  <Country ISO="SN" ISO3="SEN" Fips="SG" Name="Senegal" Capital="Dakar" Area="196190" Population="12323252" ContinentISOCode="AF" Neighbours="GN,MR,GW,GM,ML" FirstDayOfWeek="1" />
+  <Country ISO="SO" ISO3="SOM" Fips="SO" Name="Somalia" Capital="Mogadishu" Area="637657" Population="10112453" ContinentISOCode="AF" Neighbours="ET,KE,DJ" FirstDayOfWeek="1" />
+  <Country ISO="SR" ISO3="SUR" Fips="NS" Name="Suriname" Capital="Paramaribo" Area="163270" Population="492829" ContinentISOCode="SA" Neighbours="GY,BR,GF" FirstDayOfWeek="1" />
+  <Country ISO="ST" ISO3="STP" Fips="TP" Name="Sao Tome and Principe" Capital="Sao Tome" Area="1001" Population="175808" ContinentISOCode="AF" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="SV" ISO3="SLV" Fips="ES" Name="El Salvador" Capital="San Salvador" Area="21040" Population="6052064" ContinentISOCode="NA" Neighbours="GT,HN" FirstDayOfWeek="1" />
+  <Country ISO="SX" ISO3="SXM" Fips="NN" Name="Sint Maarten" Capital="Philipsburg" Area="21" Population="37429" ContinentISOCode="NA" Neighbours="MF" FirstDayOfWeek="1" />
+  <Country ISO="SY" ISO3="SYR" Fips="SY" Name="Syria" Capital="Damascus" Area="185180" Population="22198110" ContinentISOCode="AS" Neighbours="IQ,JO,IL,TR,LB" FirstDayOfWeek="1" />
+  <Country ISO="SZ" ISO3="SWZ" Fips="WZ" Name="Swaziland" Capital="Mbabane" Area="17363" Population="1354051" ContinentISOCode="AF" Neighbours="ZA,MZ" FirstDayOfWeek="1" />
+  <Country ISO="TC" ISO3="TCA" Fips="TK" Name="Turks and Caicos Islands" Capital="Cockburn Town" Area="430" Population="20556" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="TD" ISO3="TCD" Fips="CD" Name="Chad" Capital="N'Djamena" Area="1284000" Population="10543464" ContinentISOCode="AF" Neighbours="NE,LY,CF,SD,CM,NG" FirstDayOfWeek="1" />
+  <Country ISO="TF" ISO3="ATF" Fips="FS" Name="French Southern Territories" Capital="Port-aux-Francais" Area="7829" Population="140" ContinentISOCode="AN" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="TG" ISO3="TGO" Fips="TO" Name="Togo" Capital="Lome" Area="56785" Population="6587239" ContinentISOCode="AF" Neighbours="BJ,GH,BF" FirstDayOfWeek="1" />
+  <Country ISO="TH" ISO3="THA" Fips="TH" Name="Thailand" Capital="Bangkok" Area="514000" Population="67089500" ContinentISOCode="AS" Neighbours="LA,MM,KH,MY" FirstDayOfWeek="1" />
+  <Country ISO="TJ" ISO3="TJK" Fips="TI" Name="Tajikistan" Capital="Dushanbe" Area="143100" Population="7487489" ContinentISOCode="AS" Neighbours="CN,AF,KG,UZ" FirstDayOfWeek="1" />
+  <Country ISO="TK" ISO3="TKL" Fips="TL" Name="Tokelau" Capital="" Area="10" Population="1466" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="TL" ISO3="TLS" Fips="TT" Name="East Timor" Capital="Dili" Area="15007" Population="1154625" ContinentISOCode="OC" Neighbours="ID" FirstDayOfWeek="1" />
+  <Country ISO="TM" ISO3="TKM" Fips="TX" Name="Turkmenistan" Capital="Ashgabat" Area="488100" Population="4940916" ContinentISOCode="AS" Neighbours="AF,IR,UZ,KZ" FirstDayOfWeek="1" />
+  <Country ISO="TN" ISO3="TUN" Fips="TS" Name="Tunisia" Capital="Tunis" Area="163610" Population="10589025" ContinentISOCode="AF" Neighbours="DZ,LY" FirstDayOfWeek="1" />
+  <Country ISO="TO" ISO3="TON" Fips="TN" Name="Tonga" Capital="Nuku'alofa" Area="748" Population="122580" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="TR" ISO3="TUR" Fips="TU" Name="Turkey" Capital="Ankara" Area="780580" Population="77804122" ContinentISOCode="AS" Neighbours="SY,GE,IQ,IR,GR,AM,AZ,BG" FirstDayOfWeek="1" />
+  <Country ISO="TT" ISO3="TTO" Fips="TD" Name="Trinidad and Tobago" Capital="Port of Spain" Area="5128" Population="1228691" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="TV" ISO3="TUV" Fips="TV" Name="Tuvalu" Capital="Funafuti" Area="26" Population="10472" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="TW" ISO3="TWN" Fips="TW" Name="Taiwan" Capital="Taipei" Area="35980" Population="22894384" ContinentISOCode="AS" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="TZ" ISO3="TZA" Fips="TZ" Name="Tanzania" Capital="Dodoma" Area="945087" Population="41892895" ContinentISOCode="AF" Neighbours="MZ,KE,CD,RW,ZM,BI,UG,MW" FirstDayOfWeek="1" />
+  <Country ISO="UA" ISO3="UKR" Fips="UP" Name="Ukraine" Capital="Kiev" Area="603700" Population="45415596" ContinentISOCode="EU" Neighbours="PL,MD,HU,SK,BY,RO,RU" FirstDayOfWeek="1" />
+  <Country ISO="UG" ISO3="UGA" Fips="UG" Name="Uganda" Capital="Kampala" Area="236040" Population="33398682" ContinentISOCode="AF" Neighbours="TZ,KE,SS,CD,RW" FirstDayOfWeek="1" />
+  <Country ISO="UM" ISO3="UMI" Fips="" Name="United States Minor Outlying Islands" Capital="" Area="0" Population="0" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="0" />
+  <Country ISO="US" ISO3="USA" Fips="US" Name="United States" Capital="Washington" Area="9629091" Population="310232863" ContinentISOCode="NA" Neighbours="CA,MX,CU" FirstDayOfWeek="0" />
+  <Country ISO="UY" ISO3="URY" Fips="UY" Name="Uruguay" Capital="Montevideo" Area="176220" Population="3477000" ContinentISOCode="SA" Neighbours="BR,AR" FirstDayOfWeek="1" />
+  <Country ISO="UZ" ISO3="UZB" Fips="UZ" Name="Uzbekistan" Capital="Tashkent" Area="447400" Population="27865738" ContinentISOCode="AS" Neighbours="TM,AF,KG,TJ,KZ" FirstDayOfWeek="1" />
+  <Country ISO="VA" ISO3="VAT" Fips="VT" Name="Vatican" Capital="Vatican City" Area="0.44" Population="921" ContinentISOCode="EU" Neighbours="IT" FirstDayOfWeek="1" />
+  <Country ISO="VC" ISO3="VCT" Fips="VC" Name="Saint Vincent and the Grenadines" Capital="Kingstown" Area="389" Population="104217" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="VE" ISO3="VEN" Fips="VE" Name="Venezuela" Capital="Caracas" Area="912050" Population="27223228" ContinentISOCode="SA" Neighbours="GY,BR,CO" FirstDayOfWeek="1" />
+  <Country ISO="VG" ISO3="VGB" Fips="VI" Name="British Virgin Islands" Capital="Road Town" Area="153" Population="21730" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="VI" ISO3="VIR" Fips="VQ" Name="U.S. Virgin Islands" Capital="Charlotte Amalie" Area="352" Population="108708" ContinentISOCode="NA" Neighbours="" FirstDayOfWeek="0" />
+  <Country ISO="VN" ISO3="VNM" Fips="VM" Name="Vietnam" Capital="Hanoi" Area="329560" Population="89571130" ContinentISOCode="AS" Neighbours="CN,LA,KH" FirstDayOfWeek="1" />
+  <Country ISO="VU" ISO3="VUT" Fips="NH" Name="Vanuatu" Capital="Port Vila" Area="12200" Population="221552" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="WF" ISO3="WLF" Fips="WF" Name="Wallis and Futuna" Capital="Mata Utu" Area="274" Population="16025" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="WS" ISO3="WSM" Fips="WS" Name="Samoa" Capital="Apia" Area="2944" Population="192001" ContinentISOCode="OC" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="YE" ISO3="YEM" Fips="YM" Name="Yemen" Capital="Sanaa" Area="527970" Population="23495361" ContinentISOCode="AS" Neighbours="SA,OM" FirstDayOfWeek="1" />
+  <Country ISO="YT" ISO3="MYT" Fips="MF" Name="Mayotte" Capital="Mamoudzou" Area="374" Population="159042" ContinentISOCode="AF" Neighbours="" FirstDayOfWeek="1" />
+  <Country ISO="ZA" ISO3="ZAF" Fips="SF" Name="South Africa" Capital="Pretoria" Area="1219912" Population="49000000" ContinentISOCode="AF" Neighbours="ZW,SZ,MZ,BW,NA,LS" FirstDayOfWeek="1" />
+  <Country ISO="ZM" ISO3="ZMB" Fips="ZA" Name="Zambia" Capital="Lusaka" Area="752614" Population="13460305" ContinentISOCode="AF" Neighbours="ZW,TZ,MZ,CD,NA,MW,AO" FirstDayOfWeek="1" />
+  <Country ISO="ZW" ISO3="ZWE" Fips="ZI" Name="Zimbabwe" Capital="Harare" Area="390580" Population="13061000" ContinentISOCode="AF" Neighbours="ZA,MZ,BW,ZM" FirstDayOfWeek="1" />
+  <Country ISO="CS" ISO3="SCG" Fips="YI" Name="Serbia and Montenegro" Capital="Belgrade" Area="102350" Population="10829175" ContinentISOCode="EU" Neighbours="AL,HU,MK,RO,HR,BA,BG" FirstDayOfWeek="1" />
+  <Country ISO="AN" ISO3="ANT" Fips="NT" Name="Netherlands Antilles" Capital="Willemstad" Area="960" Population="300000" ContinentISOCode="NA" Neighbours="GP" FirstDayOfWeek="1" />
+</Countries>

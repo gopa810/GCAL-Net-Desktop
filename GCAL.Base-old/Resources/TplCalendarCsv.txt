@@ -1,0 +1,25 @@
+"Subject","Begin Date","Start","End Date","End","WholeDay","Alarm"
+# (set lastmasa -1)
+# (foreach k : calendar.itemIndexes
+#     (set prevd (x calendar getDay (- k 1)))
+#     (set pvd   (x calendar getDay k)) 
+#     (set nextd (x calendar getDay (+ k 1)))
+#     (if (!= pvd.astro.nMasa lastmasa) then
+#         (set lastmasa pvd.astro.nMasa)
+#     )
+#     (if (or (== (x app getDispValue 20) 0) (> pvd.events.count 0)) then
+#         (print "\"");
+#         (print pvd.tithiNameExt)
+#         (print "; ")
+#         (if (>= pvd.astro.sunLongitude 0.0) then
+#             (foreach ed : pvd.events
+#                 (if (x app canDisplay ed.dispItem) then
+#                    (print ed.text) (print "; ")
+#                 )
+#             )
+#         )
+#         (print "\"");
+"[pvd.date.day].[pvd.date.month].[pvd.date.year]","0:00:00","[nextd.date.day].[nextd.date.month].[nextd.date.year]","0:00:00","True","False"
+#     )
+
+

@@ -1,0 +1,12 @@
+Group;Name;Value
+# (set group "default")
+# (foreach ab : appday.items
+#     (if (x app canDisplay ab.DsCondition)) then
+#         (if ab.isInfo then
+[group];[ab.Name];[ab.Value]
+#         )
+#         (if ab.isSeparator then
+#             (set group ab.Name)
+#         )
+#     )
+# )
